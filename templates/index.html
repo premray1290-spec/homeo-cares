@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homeo Care's | Natural Healthcare</title>
+
+    <meta
+        name="description"
+        content="Homeo Care's - Natural healthcare products and doctor consultation."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="Homeo Care's Logo" class="logo-img">
+        </a>
+
+        <div class="nav-links" id="navLinks">
+
+            <a href="#home">Home</a>
+            <a href="#doctor">Doctor</a>
+            <a href="#products">Products</a>
+            <a href="#dealer">Dealer</a>
+            <a href="#contact">Contact</a>
+
+            <a href="#dealer" class="dealer-btn">
+                Dealer Login
+            </a>
+
+        </div>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <!-- FADDU ANIMATION: Floating Leaves -->
+        <div class="leaves-container">
+            <div class="leaf">🍃</div>
+            <div class="leaf">🌿</div>
+            <div class="leaf">🍃</div>
+            <div class="leaf">🍂</div>
+            <div class="leaf">🌿</div>
+        </div>
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span></span>
+                Natural Healthcare
+            </div>
+
+            <h1>
+                Better Health,
+                <span>Naturally.</span>
+            </h1>
+
+            <p class="hero-description">
+                Welcome to Homeo Care's — a healthcare platform focused on
+                natural wellness, trusted products and accessible doctor
+                consultation.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="primary-btn">
+                    Explore Product
+                </a>
+
+                <a href="#doctor" class="secondary-btn">
+                    Consult Doctor
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="stat">
+                    <strong>Natural</strong>
+                    <small>Healthcare Focus</small>
+                </div>
+
+                <div class="stat">
+                    <strong>Doctor</strong>
+                    <small>Consultation Support</small>
+                </div>
+
+                <div class="stat">
+                    <strong>Direct</strong>
+                    <small>WhatsApp Orders</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-product">
+
+            <div class="hero-circle"></div>
+
+            <img
+                src="{{ url_for('static', filename='images/logo.jpg') }}"
+                alt="Homeo Care's Logo"
+                class="hero-image"
+            >
+
+            <div class="floating-card one">
+                🌿 Natural Wellness
+            </div>
+
+            <div class="floating-card two">
+                💬 Doctor Support
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= DOCTOR ================= -->
+
+    <section class="section doctor-section" id="doctor">
+
+        <div class="doctor-container">
+
+            <div class="doctor-content reveal">
+
+                <div class="doctor-tag">
+                    Doctor Consultation
+                </div>
+
+                <h2>
+                    Talk to a Doctor.
+                </h2>
+
+                <p>
+                    Have questions about your health or want professional
+                    guidance before using a product? Contact our experienced doctor
+                    directly for consultation.
+                </p>
+
+                <div class="doc-highlights">
+                    <div class="highlight">
+                        <span>🌟</span> 25+ Years Experience
+                    </div>
+                    <div class="highlight">
+                        <span>🎓</span> BHMS (kol)
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card premium-doc-card reveal">
+
+                <div class="doc-header">
+                    <div class="doc-avatar">👨‍⚕️</div>
+                    <div>
+                        <h3>Dr. A. K. Sinha</h3>
+                        <p style="margin: 0; color: rgba(255,255,255,0.7); font-size: 14px;">Senior Homeopathic Physician</p>
+                    </div>
+                </div>
+
+                <div class="doc-specialties">
+                    <strong>Specialities:</strong>
+                    <div class="specialty-tags">
+                        <span>Kidney Stones</span>
+                        <span>Gall Bladder Stone</span>
+                        <span>Appendix</span>
+                    </div>
+                </div>
+
+                <div class="doctor-contact">
+                    <span>📞</span>
+                    <a href="tel:+918540025283">+91 8540025283</a>
+                </div>
+
+                <a
+                    href="https://wa.me/918540025283?text=Hello%20Dr.%20A.%20K.%20Sinha%2C%20I%20would%20like%20to%20consult%20you."
+                    target="_blank"
+                    class="doctor-whatsapp"
+                >
+                    Consult on WhatsApp →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="section products-section" id="products">
+
+        <div class="section-header">
+
+            <div class="section-tag">
+                Our Formulations
+            </div>
+
+            <h2 class="section-title">
+                Featured Healthcare Products
+            </h2>
+
+            <p class="section-subtitle">
+                Explore our specialized homoeopathic and natural wellness products. Order directly on WhatsApp or consult our doctor.
+            </p>
+
+        </div>
+
+        <div class="products-grid">
+
+            <!-- 1. ALFA GAIN -->
+            <div class="flipkart-card">
+                <div class="card-badge">100% Natural</div>
+                <div class="card-pack">30 Capsules</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/alfa-gain.png') }}" alt="ALFA GAIN">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Wellness & Weight Gain</span>
+                    <h3 class="card-title">ALFA <span>GAIN</span></h3>
+                    <p class="card-tagline">Natural Weight Gain Capsules</p>
+                    <p class="card-desc">Natural wellness supplement designed to support healthy weight gain, nourishment, strength and energy.</p>
+                    <ul class="card-benefits">
+                        <li>Supports healthy weight gain & strength</li>
+                        <li>Nourishment & healthy muscle development</li>
+                        <li>Maintains energy & vitality</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Dosage:</strong> 1–2 capsules daily or as directed by physician.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('ALFA GAIN')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- 2. OSTO D -->
+            <div class="flipkart-card">
+                <div class="card-badge">Homoeopathic</div>
+                <div class="card-pack">30 Capsules</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/osto-d.png') }}" alt="OSTO D">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Bone & Joint Care</span>
+                    <h3 class="card-title">OSTO <span>D</span></h3>
+                    <p class="card-tagline">Calcium + D₃ Capsules</p>
+                    <p class="card-desc">Formulated to support strong bones, efficient calcium absorption, bone density and healthy joint mobility.</p>
+                    <ul class="card-benefits">
+                        <li>Supports strong and healthy bones</li>
+                        <li>Aids calcium absorption & bone density</li>
+                        <li>Promotes joint mobility & flexibility</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Dosage:</strong> Take recommended dose as directed by physician.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('OSTO D')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3. DOLVIN R -->
+            <div class="flipkart-card">
+                <div class="card-badge">Pain Relief</div>
+                <div class="card-pack">10 Capsules</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/dolvin-r.png') }}" alt="DOLVIN R">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Pain & Mobility Support</span>
+                    <h3 class="card-title">DOLVIN <span>R</span></h3>
+                    <p class="card-tagline">Homoeopathic Pain Relief Capsules</p>
+                    <p class="card-desc">Provides support for everyday body pain, joint discomfort, backache and muscle stiffness for active living.</p>
+                    <ul class="card-benefits">
+                        <li>Relief from joint, back & muscle pain</li>
+                        <li>Supports comfortable everyday mobility</li>
+                        <li>Fast-acting homoeopathic formulation</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Dosage:</strong> Take recommended dose as directed by physician.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('DOLVIN R')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- 4. EMUN 40+ -->
+            <div class="flipkart-card">
+                <div class="card-badge">Adult Vitality</div>
+                <div class="card-pack">30 ml Drops</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/emun-40.png') }}" alt="EMUN 40+">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Overall Vitality & Wellness</span>
+                    <h3 class="card-title">EMUN <span>40+</span></h3>
+                    <p class="card-tagline">Homoeopathic Drops for 40+ Adults</p>
+                    <p class="card-desc">Formulated specifically for adults aged 40+ to support daily health, active energy, immune strength and vitality.</p>
+                    <ul class="card-benefits">
+                        <li>Supports overall vitality & stamina in 40+</li>
+                        <li>Easy-to-use liquid drop formulation</li>
+                        <li>Convenient daily wellness routine</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Dosage:</strong> 10–15 drops in morning with warm water.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('EMUN 40+')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- 5. LINOVAX -->
+            <div class="flipkart-card">
+                <div class="card-badge">Weight Management</div>
+                <div class="card-pack">30 ml Drops</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/linovax.png') }}" alt="LINOVAX">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Metabolism & Fitness</span>
+                    <h3 class="card-title">LINO<span>VAX</span></h3>
+                    <p class="card-tagline">Weight Management Drops</p>
+                    <p class="card-desc">Homoeopathic formulation designed to assist healthy metabolism, weight balance and an active healthy lifestyle.</p>
+                    <ul class="card-benefits">
+                        <li>Supports healthy weight management</li>
+                        <li>Supports healthy metabolism & wellness</li>
+                        <li>Suitable for both men and women</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Dosage:</strong> 20 drops in half cup warm water, 3x daily before meals.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('LINOVAX')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- 6. LUCO F -->
+            <div class="flipkart-card">
+                <div class="card-badge">Women's Wellness</div>
+                <div class="card-pack">30 Capsules</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/luco-f.png') }}" alt="LUCO F">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Feminine Care</span>
+                    <h3 class="card-title">LUCO <span>F</span></h3>
+                    <p class="card-tagline">Homoeopathic Women's Care</p>
+                    <p class="card-desc">Formulated for women's wellness, supporting natural balance and relief from abnormal discharge (leucorrhoea).</p>
+                    <ul class="card-benefits">
+                        <li>Supports healthy feminine balance</li>
+                        <li>Relief from discomfort, itching & burning</li>
+                        <li>Convenient gentle capsule formulation</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Dosage:</strong> Take as directed by homoeopathic physician.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('LUCO F')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- 7. SMILE GLOW -->
+            <div class="flipkart-card">
+                <div class="card-badge">Oral Care</div>
+                <div class="card-pack">10 ml Liquid</div>
+                <div class="card-img-box">
+                    <img src="{{ url_for('static', filename='images/smile-glow.png') }}" alt="SMILE GLOW">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Teeth Whitening</span>
+                    <h3 class="card-title">SMILE <span>GLOW</span></h3>
+                    <p class="card-tagline">Teeth Whitening Liquid</p>
+                    <p class="card-desc">Convenient oral-care liquid designed to remove food and tea stains for a visibly cleaner, brighter smile and fresh breath.</p>
+                    <ul class="card-benefits">
+                        <li>Supports whiter & brighter teeth</li>
+                        <li>Helps remove coffee, tea & food stains</li>
+                        <li>Fresh breath & gum hygiene support</li>
+                    </ul>
+                    <div class="card-usage">
+                        <strong>Usage:</strong> Add a few drops to toothbrush with regular brushing.
+                    </div>
+                    <button class="whatsapp-btn" onclick="orderProduct('SMILE GLOW')">
+                        Order on WhatsApp
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="section">
+
+        <div class="section-header">
+
+            <div class="section-tag">
+                Why Homeo Care's
+            </div>
+
+            <h2 class="section-title">
+                Healthcare with a personal touch.
+            </h2>
+
+            <p class="section-subtitle">
+                We are building a simple and accessible healthcare
+                experience for customers and dealers.
+            </p>
+
+        </div>
+
+
+        <div class="features">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🌿
+                </div>
+
+                <h3>
+                    Natural Wellness
+                </h3>
+
+                <p>
+                    Product-focused wellness experience with clear
+                    information and easy access to support.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    👨‍⚕️
+                </div>
+
+                <h3>
+                    Doctor Consultation
+                </h3>
+
+                <p>
+                    Connect with our listed doctor for consultation
+                    and professional guidance.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💬
+                </div>
+
+                <h3>
+                    Direct Support
+                </h3>
+
+                <p>
+                    Customers can directly contact Homeo Care's
+                    through phone, email and WhatsApp.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DEALER ================= -->
+
+    <section class="section dealer-section" id="dealer">
+
+        <div class="section-header">
+
+            <div class="section-tag">
+                Dealer Portal
+            </div>
+
+            <h2 class="section-title">
+                Dealer Login & Registration
+            </h2>
+
+            <p class="section-subtitle">
+                This area is reserved for Homeo Care's dealers.
+                Full authentication and dealer dashboard will be
+                connected with the Python backend in the next stage.
+            </p>
+
+        </div>
+
+
+        <div class="dealer-container">
+
+            <!-- LOGIN -->
+
+            <div class="dealer-box">
+
+                <h3>
+                    Dealer Login
+                </h3>
+
+                <p>
+                    Existing dealers can login to access their account.
+                </p>
+
+                <form
+                    class="dealer-form"
+                    onsubmit="dealerLogin(event)"
+                >
+
+                    <input
+                        type="email"
+                        id="loginEmail"
+                        placeholder="Dealer Email"
+                        required
+                    >
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Password"
+                        required
+                    >
+
+                    <button type="submit">
+                        Login
+                    </button>
+
+                </form>
+
+                <div class="dealer-note">
+                    Dealer authentication will be connected to Flask
+                    backend in the next development stage.
+                </div>
+
+            </div>
+
+
+            <!-- REGISTER -->
+
+            <div class="dealer-box">
+
+                <h3>
+                    Become a Dealer
+                </h3>
+
+                <p>
+                    Register your interest to become an authorized dealer.
+                </p>
+
+                <form
+                    class="dealer-form"
+                    onsubmit="dealerRegister(event)"
+                >
+
+                    <input
+                        type="text"
+                        id="dealerName"
+                        placeholder="Full Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="dealerEmail"
+                        placeholder="Email Address"
+                        required
+                    >
+
+                    <input
+                        type="tel"
+                        id="dealerPhone"
+                        placeholder="Phone Number"
+                        required
+                    >
+
+                    <button type="submit">
+                        Register
+                    </button>
+
+                </form>
+
+                <div class="dealer-note">
+                    Registration details will be stored securely
+                    after backend authentication is added.
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="section contact-section" id="contact">
+
+        <div class="section-header">
+
+            <div class="section-tag">
+                Contact & Support
+            </div>
+
+            <h2 class="section-title">
+                We're here to help.
+            </h2>
+
+            <p class="section-subtitle">
+                Contact Homeo Care's for product, order or general support.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <h3>
+                    Email Support
+                </h3>
+
+                <a href="mailto:support@homeocares.co.in">
+                    support@homeocares.co.in
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    ☎
+                </div>
+
+                <h3>
+                    Phone Support
+                </h3>
+
+                <a href="tel:+918540025283">
+                    +91 8540025283
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <h3>
+                    WhatsApp
+                </h3>
+
+                <a
+                    href="https://wa.me/918540025283"
+                    target="_blank"
+                >
+                    Chat with us
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+            © 2026 <strong>Homeo Care's</strong>. All rights reserved.
+        </div>
+
+        <div>
+            Natural Healthcare • Doctor Support • Direct Ordering
+        </div>
+
+    </footer>
+
+
+    <!-- ================= AI CHAT BUTTON ================= -->
+
+    <button
+        class="chat-button"
+        id="chatButton"
+        aria-label="Open AI Assistant"
+    >
+        🤖
+    </button>
+
+
+    <!-- ================= AI CHAT WINDOW ================= -->
+
+    <div class="chat-window" id="chatWindow">
+
+        <div class="chat-header">
+
+            <strong>
+                Homeo Care's Assistant
+            </strong>
+
+            <small>
+                Health information & support
+            </small>
+
+        </div>
+
+
+        <div
+            class="chat-messages"
+            id="chatMessages"
+        >
+
+            <div class="message bot-message">
+
+                Hello! 👋 I'm the Homeo Care's Assistant.
+
+                <br><br>
+
+                I can help you with product information,
+                ordering, doctor consultation and support.
+
+                <br><br>
+
+                For a personal medical consultation,
+                please contact Dr. A. K. Sinha.
+
+            </div>
+
+        </div>
+
+
+        <div class="chat-input-area">
+
+            <input
+                type="text"
+                id="chatInput"
+                class="chat-input"
+                placeholder="Ask something..."
+            >
+
+            <button
+                class="chat-send"
+                id="chatSend"
+            >
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div
+        class="toast"
+        id="toast"
+    ></div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        /* ================= MOBILE MENU ================= */
+
+        const menuBtn = document.getElementById("menuBtn");
+        const navLinks = document.getElementById("navLinks");
+
+        menuBtn.addEventListener("click", () => {
+
+            navLinks.classList.toggle("active");
+
+        });
+
+
+        document.querySelectorAll(".nav-links a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                navLinks.classList.remove("active");
+
+            });
+
+        });
+
+        /* ================= PREMIUM SCROLL REVEAL (FADDU) ================= */
+        const elementsToReveal = document.querySelectorAll('.hero-content, .hero-product, .section-header, .product-card, .feature-card, .doctor-content, .doctor-card, .dealer-box, .contact-card');
+        
+        elementsToReveal.forEach(el => el.classList.add('reveal'));
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        elementsToReveal.forEach(el => revealObserver.observe(el));
+
+        /* ================= WHATSAPP ORDER ================= */
+
+        function orderProduct(productName) {
+
+            const name = productName || "ALFA GAIN";
+            const phoneNumber = "918540025283";
+
+            const message =
+                `Hello Homeo Care's, I want to order ${name}.%0A%0A` +
+                `Product: ${name}%0A` +
+                `Quantity: 1%0A%0A` +
+                `Please provide order and delivery details.`;
+
+            const whatsappURL =
+                `https://wa.me/${phoneNumber}?text=${message}`;
+
+            window.open(whatsappURL, "_blank");
+
+        }
+
+
+        /* ================= TOAST ================= */
+
+        function showToast(message) {
+
+            const toast = document.getElementById("toast");
+
+            toast.textContent = message;
+
+            toast.classList.add("show");
+
+            setTimeout(() => {
+
+                toast.classList.remove("show");
+
+            }, 3000);
+
+        }
+
+
+        /* ================= DEALER LOGIN ================= */
+
+        function dealerLogin(event) {
+
+            event.preventDefault();
+
+            showToast(
+                "Dealer login backend will be connected in the next step."
+            );
+
+        }
+
+
+        /* ================= DEALER REGISTER ================= */
+
+        function dealerRegister(event) {
+
+            event.preventDefault();
+
+            showToast(
+                "Dealer registration backend will be connected in the next step."
+            );
+
+        }
+
+
+        /* ================= AI CHAT ================= */
+
+        const chatButton = document.getElementById("chatButton");
+        const chatWindow = document.getElementById("chatWindow");
+        const chatInput = document.getElementById("chatInput");
+        const chatSend = document.getElementById("chatSend");
+        const chatMessages = document.getElementById("chatMessages");
+
+
+        chatButton.addEventListener("click", () => {
+
+            chatWindow.classList.toggle("active");
+
+            if (chatWindow.classList.contains("active")) {
+
+                chatInput.focus();
+
+            }
+
+        });
+
+
+        function addMessage(message, type) {
+
+            const messageDiv = document.createElement("div");
+
+            messageDiv.className =
+                `message ${type === "user"
+                    ? "user-message"
+                    : "bot-message"}`;
+
+            messageDiv.textContent = message;
+
+            chatMessages.appendChild(messageDiv);
+
+            chatMessages.scrollTop =
+                chatMessages.scrollHeight;
+
+        }
+
+
+        function getBotResponse(message) {
+
+            const text = message.toLowerCase();
+
+
+            if (
+                text.includes("alfa") ||
+                text.includes("osto") ||
+                text.includes("dolvin") ||
+                text.includes("emun") ||
+                text.includes("linovax") ||
+                text.includes("luco") ||
+                text.includes("smile") ||
+                text.includes("product") ||
+                text.includes("medicine")
+            ) {
+
+                return "We have 7 specialized formulations: ALFA GAIN (Weight Gain), OSTO D (Calcium + D3), DOLVIN R (Pain Relief), EMUN 40+ (Adult Vitality), LINOVAX (Weight Management), LUCO F (Women's Wellness), and SMILE GLOW (Teeth Whitening). You can click 'Order on WhatsApp' on any product, or consult Dr. A. K. Sinha for guidance.";
+
+            }
+
+
+            if (
+                text.includes("order") ||
+                text.includes("buy")
+            ) {
+
+                return "You can easily order any product directly through WhatsApp! Simply click the 'Order on WhatsApp' button on your desired product card.";
+
+            }
+
+
+            if (
+                text.includes("doctor") ||
+                text.includes("consult") ||
+                text.includes("problem") ||
+                text.includes("health")
+            ) {
+
+                return "For a personal health concern, please consult Dr. A. K. Sinha. Doctor contact: +91 8540025283.";
+
+            }
+
+
+            if (
+                text.includes("contact") ||
+                text.includes("support") ||
+                text.includes("phone")
+            ) {
+
+                return "Homeo Care's support: +91 8540025283 or support@homeocares.co.in.";
+
+            }
+
+
+            if (
+                text.includes("hello") ||
+                text.includes("hi") ||
+                text.includes("hey")
+            ) {
+
+                return "Hello! 👋 How can I help you today? You can ask me about our product, ordering, doctor consultation or support.";
+
+            }
+
+
+            return "I can help with product information, orders, doctor consultation and Homeo Care's support. For specific medical concerns, please consult Dr. A. K. Sinha at +91 8540025283.";
+
+        }
+
+
+        function sendMessage() {
+
+            const message = chatInput.value.trim();
+
+            if (!message) {
+                return;
+            }
+
+            addMessage(message, "user");
+
+            chatInput.value = "";
+
+
+            setTimeout(() => {
+
+                const response =
+                    getBotResponse(message);
+
+                addMessage(response, "bot");
+
+            }, 500);
+
+        }
+
+
+        chatSend.addEventListener("click", sendMessage);
+
+
+        chatInput.addEventListener("keydown", (event) => {
+
+            if (event.key === "Enter") {
+
+                sendMessage();
+
+            }
+
+        });
+
+    </script>
+
+</body>
+</html>
